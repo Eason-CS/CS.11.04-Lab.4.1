@@ -1,16 +1,16 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(parenthesesCheck("()")); // Output: true
-        System.out.println(parenthesesCheck(")(()))")); // Output: false
-        System.out.println(parenthesesCheck("(")); // Output: false
-        System.out.println(parenthesesCheck("(())((()())())")); // Output: true
+        System.out.println(parenthesesCheck("()"));
+        System.out.println(parenthesesCheck(")(()))")); //
+        System.out.println(parenthesesCheck("("));
+        System.out.println(parenthesesCheck("(())((()())())"));
 
-        System.out.println(reverseInteger(1234)); // Output: "4321"
-        System.out.println(reverseInteger(2468)); // Output: "8642"
+        System.out.println(reverseInteger(1234));
+        System.out.println(reverseInteger(2468));
 
-        System.out.println(encryptThis("Hello good day")); // Output: "72olle 103doo 100ya"
-        System.out.println(encryptThis("Ready set go")); // Output: "82yade 115te 103o"
+        System.out.println(encryptThis("Hello good day"));
+        System.out.println(encryptThis("Ready set go"));
     }
 
     public static boolean parenthesesCheck(String str) {
